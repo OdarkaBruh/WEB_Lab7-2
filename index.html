@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>LAB7</title>
+    <link rel="stylesheet" href="./CSS/2-form.css">
+    <link rel="stylesheet" href="dist/basicLightbox.min.css">
+  </head>
+  <body>
+    <div class="mainBody">
+      <form class="feedback-form" autocomplete="off" action="">
+        <label>
+          Email <br />
+          <input type="email" name="email" autofocus/>
+        </label>
+        <label>
+          Message <br />
+        <textarea name="message" rows="8"></textarea>
+        </label>
+        <button type="submit">Submit</button>
+      </form>
+      <div class="buttonPanel">
+        <button id="fillLocalTest">fill local Storage</button>
+        
+        <button id="clearLocalTest">clear local Storage</button>
+      </div>
+    </div>
+    <script src="dist/basicLightbox.min.js"></script>
+    <script src="./JS/2-form.js"></script>
+  </body>
+</html>
